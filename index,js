@@ -1,0 +1,41 @@
+console.log(123);
+
+
+// однострочный коментарий
+
+/*
+многострочный коментарий
+*/
+//типы данных
+console.log(3);
+
+console.log(1.5);
+
+console.log(3*15)
+
+
+console.log(true)
+console.log(false)
+
+console.log("hello")
+
+let a = 3;
+a = false;
+a = 'abc'
+a = 5;
+if (a > 4){
+    console.log('ехать на такси дорого')
+} else{
+    console.log("ехать на такси дешево")
+}
+
+
+
+while(a<10){
+    console.log(a, "до плюса")
+    a=a+1
+    console.log(a, "после плюса")
+}
+for (let i = 0; i < 5; i++){
+    console.log(i)
+}
